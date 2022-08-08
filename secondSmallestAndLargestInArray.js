@@ -1,7 +1,7 @@
 function secondSmallestAndLargest(myArr) {
     //sorting the array
     myArr = myArr.sort( (a,b) => a -b);
-    //defining new array result and adding only unique elements from myArr
+    //defining new array - result and adding only unique elements from myArr
     let result = [myArr[0]];
     for( let i = 1; i < myArr.length; i++) {
         if(myArr[i] !== result[result.length -1]) {
